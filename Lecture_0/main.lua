@@ -194,7 +194,7 @@ function love.update(dt)
                 if tmp / VIRTUAL_WIDTH >= 0.8 then
                     player2.dy = -PADDLE_SPEED
                 else 
-                    player2.dy = 0
+                    player2.dy = 0  
                 end
             else 
                 player2.dy = 0

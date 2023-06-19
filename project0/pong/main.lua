@@ -227,6 +227,33 @@ function love.update(dt)
                 ball:reset()
             end
         end
+
+        -- here comes an AI section. I've decided to add some "realism", so
+        -- the paddle startes moving only as the ball passses 1/3 of the screen, and it
+        -- always has a chance of missing the ball. "tmp" stores random value between
+        -- current x position and the width of the screen, and if it comprises more than
+        -- 80% of the total screen width, than the paddle moves in the direction of the bal,
+        -- so it's a decent chance of scoring against it.
+        if ball.dx > 0 and ball.x >= VIRTUAL_WIDTH / 3 then
+            if ball.y > player2.y then
+                tmp = math.random(ball.x, VIRTUAL_WIDTH)
+                if tmp / VIRTUAL_WIDTH >= 0.8 then
+                    player2.dy = PADDLE_SPEED
+                else 
+                    player2.dy = 0
+                end
+            elseif ball.y + 4 < player2.y then
+                tmp = math.random(ball.x, VIRTUAL_WIDTH)
+                if tmp / VIRTUAL_WIDTH >= 0.8 then
+                    player2.dy = -PADDLE_SPEED
+                else 
+                    player2.dy = 0  
+                end
+            else 
+                player2.dy = 0
+            end
+            player2:update(dt)
+        end
     end
 
     --
