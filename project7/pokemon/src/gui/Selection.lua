@@ -17,6 +17,12 @@ function Selection:init(def)
     self.items = def.items
     self.x = def.x
     self.y = def.y
+    -- flag for rendering cursor
+    self.cursor = def.cursor
+
+    self.cursor = self.cursor == nil and true or self.cursor
+    -- check whether it's closed
+    self.closed = false
 
     self.height = def.height
     self.width = def.width
@@ -28,29 +34,35 @@ function Selection:init(def)
 end
 
 function Selection:update(dt)
-    if love.keyboard.wasPressed('up') then
-        if self.currentSelection == 1 then
-            self.currentSelection = #self.items
-        else
-            self.currentSelection = self.currentSelection - 1
+    -- render the cursor when self.cursor is true
+    if self.cursor then
+        if love.keyboard.wasPressed('up') then
+            if self.currentSelection == 1 then
+                self.currentSelection = #self.items
+            else
+                self.currentSelection = self.currentSelection - 1
+            end
+            
+            gSounds['blip']:stop()
+            gSounds['blip']:play()
+        elseif love.keyboard.wasPressed('down') then
+            if self.currentSelection == #self.items then
+                self.currentSelection = 1
+            else
+                self.currentSelection = self.currentSelection + 1
+            end
+            
+            gSounds['blip']:stop()
+            gSounds['blip']:play()
+        elseif love.keyboard.wasPressed('return') or love.keyboard.wasPressed('enter') then
+            self.items[self.currentSelection].onSelect()
+            
+            gSounds['blip']:stop()
+            gSounds['blip']:play()
         end
-        
-        gSounds['blip']:stop()
-        gSounds['blip']:play()
-    elseif love.keyboard.wasPressed('down') then
-        if self.currentSelection == #self.items then
-            self.currentSelection = 1
-        else
-            self.currentSelection = self.currentSelection + 1
-        end
-        
-        gSounds['blip']:stop()
-        gSounds['blip']:play()
-    elseif love.keyboard.wasPressed('return') or love.keyboard.wasPressed('enter') then
-        self.items[self.currentSelection].onSelect()
-        
-        gSounds['blip']:stop()
-        gSounds['blip']:play()
+    -- check for user input when self.cursor == false
+    elseif love.keyboard.wasPressed('space') or love.keyboard.wasPressed('enter') or love.keyboard.wasPressed('return') then
+        self.closed = true
     end
 end
 
@@ -61,11 +73,13 @@ function Selection:render()
         local paddedY = currentY + (self.gapHeight / 2) - self.font:getHeight() / 2
 
         -- draw selection marker if we're at the right index
-        if i == self.currentSelection then
-            love.graphics.draw(gTextures['cursor'], self.x - 8, paddedY)
+        if self.cursor then
+            if i == self.currentSelection then
+                love.graphics.draw(gTextures['cursor'], self.x - 8, paddedY)
+            end
         end
 
-        love.graphics.printf(self.items[i].text, self.x, paddedY, self.width, 'center')
+        love.graphics.printf(self.items[i].text, math.floor(self.x), math.floor(paddedY), self.width, 'center')
 
         currentY = currentY + self.gapHeight
     end

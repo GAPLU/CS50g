@@ -59,9 +59,17 @@ function love.load()
     -- state)
 
     gStateStack = StateStack()
+    
+
+    
     gStateStack:push(StartState())
 
+
     love.keyboard.keysPressed = {}
+
+    for k, sound in pairs(gSounds) do
+        sound:setVolume(0.01)
+    end
 end
 
 function love.resize(w, h)

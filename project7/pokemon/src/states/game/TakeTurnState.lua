@@ -212,12 +212,61 @@ function TakeTurnState:victory()
 
                         -- set our exp to whatever the overlap is
                         self.playerPokemon.currentExp = self.playerPokemon.currentExp - self.playerPokemon.expToLevel
+                        -- gather the stats before lvl up
+                        local prior_stats = {
+                            HP = self.playerPokemon.HP,
+                            attack = self.playerPokemon.attack,
+                            defense = self.playerPokemon.defense,
+                            speedIV = self.playerPokemon.speedIV
+                        }
                         self.playerPokemon:levelUp()
+                        -- gather the stats after lvl up
+                        local updated_stats = {
+                            HP = self.playerPokemon.HP,
+                            attack = self.playerPokemon.attack,
+                            defense = self.playerPokemon.defense,
+                            speedIV = self.playerPokemon.speedIV
+                        }
 
                         gStateStack:push(BattleMessageState('Congratulations! Level Up!',
                         function()
-                            self:fadeOutWhite()
-                        end))
+                            -- fill menu class variable with all the data, also flag cursor as false
+                            local menu = Menu {
+                                x = math.floor(VIRTUAL_WIDTH / 8),
+                                y = math.floor(VIRTUAL_HEIGHT / 8),
+                                width = math.floor(3 * VIRTUAL_WIDTH / 4),
+                                height = math.floor(3 * VIRTUAL_HEIGHT / 4),
+                                cursor = false,
+                                items = {
+                                    {
+                                        text = 'GAINED STATS:'
+                                    },
+                                    {
+                                        text = 'HP: ' .. tostring(prior_stats['HP']) .. ' + ' .. tostring(updated_stats['HP'] - prior_stats['HP']) .. 
+                                                ' = ' .. tostring(updated_stats['HP'])
+                                    },
+                                    {
+                                        text = 'Attack: ' .. tostring(prior_stats['attack']) .. ' + ' .. tostring(updated_stats['attack'] - prior_stats['attack']) .. 
+                                                ' = ' .. tostring(updated_stats['attack'])
+                                    },
+                                    {
+                                        text = 'Defense: ' .. tostring(prior_stats['defense']) .. ' + ' .. tostring(updated_stats['defense'] - prior_stats['defense']) .. 
+                                                ' = ' .. tostring(updated_stats['defense'])
+                                    },
+                                    {
+                                        text = 'SpeedIV: ' .. tostring(prior_stats['speedIV']) .. ' + ' .. tostring(updated_stats['speedIV'] - prior_stats['speedIV']) .. 
+                                                ' = ' .. tostring(updated_stats['speedIV'])
+                                    }
+                                }                                            
+                            }
+                            -- push menu, fade out on close
+                            gStateStack:push(MenuState(menu, 
+                            function()
+                                self.fadeOutWhite()
+                            end
+                            ))
+                        end
+                        ))
                     else
                         self:fadeOutWhite()
                     end
