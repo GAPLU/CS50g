@@ -15,6 +15,7 @@ public class GameOverText : MonoBehaviour {
 
 		// start text off as completely transparent black
 		text.color = new Color(0, 0, 0, 0);
+
 	}
 
 	// Update is called once per frame
@@ -26,6 +27,7 @@ public class GameOverText : MonoBehaviour {
 
 			// reveal text only when helicopter is null (destroyed)
 			text.color = new Color(0, 0, 0, 1);
+			SkyscraperSpawner.speed = 10f;
 			text.text = "Game Over\nYour Score:\n" + coins + " Coins\nPress Space to Restart!";
 			
 			// jump is space bar by default

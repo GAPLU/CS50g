@@ -28,7 +28,7 @@ public class Coin : MonoBehaviour {
 	void OnTriggerEnter(Collider other) {
 
 		// trigger coin pickup function if a helicopter collides with this
-		other.transform.parent.GetComponent<HeliController>().PickupCoin();
+		other.transform.parent.GetComponent<HeliController>().PickupCoin("coin");
 		Destroy(gameObject);
 	}
 }
