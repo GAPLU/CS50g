@@ -21,7 +21,7 @@ public class GemSpawner : MonoBehaviour {
 		while (true) {
 
 
-            Instantiate(prefabs[Random.Range(0, prefabs.Length)], new Vector3(28, Random.Range(-10, 10), 10), Quaternion.identity);
+            Instantiate(prefabs[Random.Range(0, prefabs.Length)], new Vector3(28, Random.Range(-10, 8), 10), Quaternion.identity);
 
 			// pause 10-15 seconds until the next gem spawns
 			yield return new WaitForSeconds(Random.Range(10, 15));
