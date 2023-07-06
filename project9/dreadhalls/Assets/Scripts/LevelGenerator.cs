@@ -33,6 +33,8 @@ public class LevelGenerator : MonoBehaviour {
 	// we use these to dig through our maze and to spawn the pickup at the end
 	private int mazeX = 4, mazeY = 1;
 
+	private int holes = 0;
+
 	// Use this for initialization
 	void Start () {
 
@@ -121,7 +123,12 @@ public class LevelGenerator : MonoBehaviour {
 	// transform, so we can containerize everything. also allows us to avoid writing Quaternion.
 	// identity all over the place, since we never spawn anything with rotation
 	void CreateChildPrefab(GameObject prefab, GameObject parent, int x, int y, int z) {
-		var myPrefab = Instantiate(prefab, new Vector3(x, y, z), Quaternion.identity);
-		myPrefab.transform.parent = parent.transform;
+		if (y == 0 && (int)Random.Range(1, 60) == 1 && holes < 6 && mapData[z, x] == false) {
+			holes += 1;
+		}
+		else {
+			var myPrefab = Instantiate(prefab, new Vector3(x, y, z), Quaternion.identity);
+			myPrefab.transform.parent = parent.transform;
+		}
 	}
 }

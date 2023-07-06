@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace UnityStandardAssets.Utility
 {
@@ -7,12 +8,10 @@ namespace UnityStandardAssets.Utility
     {
         // An incredibly simple menu which, when given references
         // to gameobjects in the scene
-        public GUIText camSwitchButton;
+        public Text camSwitchButton; // Use UnityEngine.UI.Text instead of GUIText
         public GameObject[] objects;
 
-
         private int m_CurrentActiveObject;
-
 
         private void OnEnable()
         {
@@ -21,17 +20,16 @@ namespace UnityStandardAssets.Utility
             camSwitchButton.text = objects[m_CurrentActiveObject].name;
         }
 
-
         public void NextCamera()
         {
-            int nextactiveobject = m_CurrentActiveObject + 1 >= objects.Length ? 0 : m_CurrentActiveObject + 1;
+            int nextActiveObject = m_CurrentActiveObject + 1 >= objects.Length ? 0 : m_CurrentActiveObject + 1;
 
             for (int i = 0; i < objects.Length; i++)
             {
-                objects[i].SetActive(i == nextactiveobject);
+                objects[i].SetActive(i == nextActiveObject);
             }
 
-            m_CurrentActiveObject = nextactiveobject;
+            m_CurrentActiveObject = nextActiveObject;
             camSwitchButton.text = objects[m_CurrentActiveObject].name;
         }
     }
