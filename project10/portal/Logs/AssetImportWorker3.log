@@ -1,0 +1,1873 @@
+Using pre-set license
+Built from '2023.1/staging' branch; Version is '2023.1.0b20 (e52d526c8914) revision 15019346'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16219 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2023.1.0b20\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Code/CS50g/project10/portal
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+59570
+Successfully changed project path to: C:/Code/CS50g/project10/portal
+C:/Code/CS50g/project10/portal
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23528] Host "[IP] 192.168.144.68 [Port] 0 [Flags] 2 [Guid] 4094773114 [EditorId] 4094773114 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-M8NBQP9F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23528] Host "[IP] 192.168.144.68 [Port] 0 [Flags] 2 [Guid] 4094773114 [EditorId] 4094773114 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-M8NBQP9F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 14.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.1.0b20 (e52d526c8914)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2023.1.0b20/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Code/CS50g/project10/portal/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.3640
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2023.1.0b20/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2023.1.0b20/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2023.1.0b20/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2023.1.0b20/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002130 seconds.
+- Loaded All Assemblies, in  0.305 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.236 seconds
+Domain Reload Profiling: 540ms
+	BeginReloadAssembly (102ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (124ms)
+		LoadAssemblies (100ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (120ms)
+			TypeCache.Refresh (119ms)
+				TypeCache.ScanAssembly (109ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (236ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (198ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (141ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.070 seconds
+Refreshing native plugins compatible for Editor in 7.25 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Non-secure network connections disabled in Player Settings
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Networking.UnityWebRequest:SendWebRequest ()
+UnityEngine.WWW:.ctor (string)
+ProBuilder2.EditorCommon.pb_UpdateCheck:CheckForUpdate () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:39)
+ProBuilder2.EditorCommon.pb_UpdateCheck:.cctor () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:24)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs line 39]
+
+System.InvalidOperationException: Insecure connection not allowed
+  at (wrapper managed-to-native) UnityEngine.Networking.UnityWebRequest.BeginWebRequest(UnityEngine.Networking.UnityWebRequest)
+  at UnityEngine.Networking.UnityWebRequest.SendWebRequest () [0x00001] in <78841a8f759c47e4aff7bab3a06b1e45>:0 
+  at UnityEngine.WWW..ctor (System.String url) [0x00014] in <a966897598e44b64be2f11b39acdbb93>:0 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck.CheckForUpdate () [0x00007] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:39 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck..cctor () [0x00012] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:24 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.925 seconds
+Domain Reload Profiling: 1991ms
+	BeginReloadAssembly (319ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (654ms)
+		LoadAssemblies (348ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (397ms)
+			TypeCache.Refresh (369ms)
+				TypeCache.ScanAssembly (348ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (925ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (635ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (350ms)
+			ProcessInitializeOnLoadMethodAttributes (178ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 7.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2625 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (101.7 KB). Loaded Objects now: 3186.
+Memory consumption went from 121.5 MB to 121.4 MB.
+Total: 9.881400 ms (FindLiveObjects: 0.227500 ms CreateObjectMapping: 0.082900 ms MarkObjects: 9.172000 ms  DeleteObjects: 0.397400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 305066.198067 seconds.
+  path: Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Normal_Vertical_Light.png
+  artifactKey: Guid(039615c9e5162ba4280fb1c7c2c71c52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Normal_Vertical_Light.png using Guid(039615c9e5162ba4280fb1c7c2c71c52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9b5f33ce77e7f7c1a1844303da47d1bb') in 0.183014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ProCore/ProBuilder/Resources/Materials/InvisibleFace.mat
+  artifactKey: Guid(ff383952e5ab4984fa6d78dc45f912ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProBuilder/Resources/Materials/InvisibleFace.mat using Guid(ff383952e5ab4984fa6d78dc45f912ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd3dc3733671e632e9689c3ebc513384c') in 0.017604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ProCore/ProGrids/GUI/ProGridsToggles/ProGrids2_GUI_PushToGrid_Normal.png
+  artifactKey: Guid(0c98fb088f555430ca86cd7a4211b580) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProGrids/GUI/ProGridsToggles/ProGrids2_GUI_PushToGrid_Normal.png using Guid(0c98fb088f555430ca86cd7a4211b580) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5f9e95065612a81edb9ef7edfe21f371') in 0.019147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Normal_Vertical_Light.png
+  artifactKey: Guid(f5b1c5fe86a6e2f4aa8c5c8a851896f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Normal_Vertical_Light.png using Guid(f5b1c5fe86a6e2f4aa8c5c8a851896f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4a16f125eb5061e5370e7bbee9a95f8f') in 0.026036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectBySmoothingGroup.png
+  artifactKey: Guid(57e06196bed11ff4d807998a188994bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectBySmoothingGroup.png using Guid(57e06196bed11ff4d807998a188994bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6d756eb31d4853cc2bbad90aac243b0c') in 0.025007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Standard Assets/Characters/RollerBall/Textures/RollerBallSpecularGloss.png
+  artifactKey: Guid(7700d93a317c89246a647c7a6c3e7399) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Characters/RollerBall/Textures/RollerBallSpecularGloss.png using Guid(7700d93a317c89246a647c7a6c3e7399) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '00f65a60edd5d78e1b45af06ea7cab44') in 0.029383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/ProCore/ProBuilder/Editor/MenuItems/Tools/pb_BooleanInterface.cs
+  artifactKey: Guid(0c92e8890b3c18e4fa925168cb2ea002) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProBuilder/Editor/MenuItems/Tools/pb_BooleanInterface.cs using Guid(0c92e8890b3c18e4fa925168cb2ea002) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4fd3bb45fdd5e8f66fe97e9fb77c2fab') in 0.013195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/ProCore/ProBuilder/Editor/MenuItems/Selection/pb_ExpandSelection.cs
+  artifactKey: Guid(b65bcdf2cdd5c4642a467fa1923e4e33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProBuilder/Editor/MenuItems/Selection/pb_ExpandSelection.cs using Guid(b65bcdf2cdd5c4642a467fa1923e4e33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ab4b217aa5bb06f53fafca21b6b6580e') in 0.011525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/ProCore/ProGrids/About/Editor/pg_AboutWindow.cs
+  artifactKey: Guid(397122f2e7afcb643bc5232d77a09e1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProGrids/About/Editor/pg_AboutWindow.cs using Guid(397122f2e7afcb643bc5232d77a09e1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '588c12940cfe0d20a7d28e31316a0e7a') in 0.014401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_VertexMergeWeld.cs
+  artifactKey: Guid(be7875c6d324f894297948afb22243c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_VertexMergeWeld.cs using Guid(be7875c6d324f894297948afb22243c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '66e7fc875f429eeed69e372cdf9565ed') in 0.010850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/ProCore/ProBuilder/Icons/Toolbar/Help_Light.png
+  artifactKey: Guid(787877c14e5fd4149b3c624cb4aa67fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProBuilder/Icons/Toolbar/Help_Light.png using Guid(787877c14e5fd4149b3c624cb4aa67fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7cf5c6ea09664a4d6079f35938053767') in 0.024870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Normal_Horizontal_Light.png
+  artifactKey: Guid(34e6bfa947d01cd4f856570fd4cbdbbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Normal_Horizontal_Light.png using Guid(34e6bfa947d01cd4f856570fd4cbdbbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7569dd0d844c6ce16dad2a254da0fc2b') in 0.025646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_DirectEdit.png
+  artifactKey: Guid(1ac5bb3646b5a4644a9c4e7302a95413) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_DirectEdit.png using Guid(1ac5bb3646b5a4644a9c4e7302a95413) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '906bbd2125d7fe707f0b2a235cc61d85') in 0.035331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_BridgeEdges.cs
+  artifactKey: Guid(3d47ec8636eedb54bbd43b455ba5a552) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_BridgeEdges.cs using Guid(3d47ec8636eedb54bbd43b455ba5a552) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5610ceebea0c0de3e16cd651f3e0d4f0') in 0.010499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/ProCore/ProBuilder/Icons/Toolbar/ProOnly.png
+  artifactKey: Guid(63e0922eff0831243892bff7c10abbdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProBuilder/Icons/Toolbar/ProOnly.png using Guid(63e0922eff0831243892bff7c10abbdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1b75b284232dfacd0eefa966b2e7b849') in 0.023467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_SetPivot.cs
+  artifactKey: Guid(65a620b923aa1cb48a88b3c30dab222a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_SetPivot.cs using Guid(65a620b923aa1cb48a88b3c30dab222a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '77c52b121aedc577629ef8148f9d0119') in 0.011156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Ring_disabled.png
+  artifactKey: Guid(826b2abddf492d1448a4edf0d022c996) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Ring_disabled.png using Guid(826b2abddf492d1448a4edf0d022c996) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2f9831e384d76b2f2863f5770b0fcd8c') in 0.024131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Circle-22px_Hover.png
+  artifactKey: Guid(89b254878274a4a43bf4cd24507741c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Circle-22px_Hover.png using Guid(89b254878274a4a43bf4cd24507741c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '623d269175ef9b728517e3f4f46a2049') in 0.027314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ProCore/ProGrids/About/Images/ProGroups_AssetStore_Icon_96px.png
+  artifactKey: Guid(16e30887c69dad541aee23ecc68a4ccb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProGrids/About/Images/ProGroups_AssetStore_Icon_96px.png using Guid(16e30887c69dad541aee23ecc68a4ccb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eb7c2b77f944091381dd65b3fbdaf771') in 0.030138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/ProCore/ProBuilder/Icons/UVEditor/ProBuilderGUI_UV_Manip_On.png
+  artifactKey: Guid(359ce795c4097554b928ddc99123c484) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProBuilder/Icons/UVEditor/ProBuilderGUI_UV_Manip_On.png using Guid(359ce795c4097554b928ddc99123c484) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e8f357c7baa1cfa6cbe9494a9fa2fda9') in 0.029375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanOcclusion.png
+  artifactKey: Guid(4e2f32e9a1fefc24092337ae061f3dbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanOcclusion.png using Guid(4e2f32e9a1fefc24092337ae061f3dbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '25ce882def8eac3627ad1c0997f84a7a') in 0.040033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/ProCore/ProBuilder/Material/Textures/VertOff.tga
+  artifactKey: Guid(0883d895ef5a0aa4892f247367dbeda3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProBuilder/Material/Textures/VertOff.tga using Guid(0883d895ef5a0aa4892f247367dbeda3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '66918d6fc3c166940b1ba4d116831d52') in 0.027699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ProCore/ProGrids/GUI/ProGridsToggles/ProGrids2_Button_Hover.png
+  artifactKey: Guid(8281de412bbc46b40afdd068d9d2044f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProGrids/GUI/ProGridsToggles/ProGrids2_Button_Hover.png using Guid(8281de412bbc46b40afdd068d9d2044f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a6b9bd221295d67793596d2a1b9d94bf') in 0.021182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurnSharp.fbx
+  artifactKey: Guid(f2bed5dc5afacff44a00de8daae9703b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurnSharp.fbx using Guid(f2bed5dc5afacff44a00de8daae9703b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1083a509db3f35d1edd56811a822b1f5') in 0.096327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 158
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RebuildSharedIndices.cs
+  artifactKey: Guid(ef9241e5284141547955d3f7f7fe3c64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RebuildSharedIndices.cs using Guid(ef9241e5284141547955d3f7f7fe3c64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '66d4a0b4066388ce97aaa6728fd205b2') in 0.014008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000651 seconds.
+  path: Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Skybox/Space_up.png
+  artifactKey: Guid(03f6d5b8c2b6ce54a9d3bad9227d22e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Skybox/Space_up.png using Guid(03f6d5b8c2b6ce54a9d3bad9227d22e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '352c68c5555bde0e4516e0ab8bfbe5bb') in 0.020731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ProCore/ProGrids/GUI/ProGridsToggles/ProGrids2_GUI_Vis_On.png
+  artifactKey: Guid(590949d9d6facf84596b0d167ce152dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProGrids/GUI/ProGridsToggles/ProGrids2_GUI_Vis_On.png using Guid(590949d9d6facf84596b0d167ce152dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e3c71042fc25f15716d03ccc88996a9c') in 0.022031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Skybox/Space_down.png
+  artifactKey: Guid(6925cd6e64cbdf14f823015144ddb2e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Skybox/Space_down.png using Guid(6925cd6e64cbdf14f823015144ddb2e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b64dda867c830012b2b845945f5b735d') in 0.021948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Pressed_Horizontal_Light.png
+  artifactKey: Guid(4e432e22e3e67c6458f09b5445c37c0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Pressed_Horizontal_Light.png using Guid(4e432e22e3e67c6458f09b5445c37c0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '89b62e11b334b6afde3bc07442845ca6') in 0.033617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Pressed_Horizontal_Light.png
+  artifactKey: Guid(683ac3a694654de4182291a8e8ebce7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Pressed_Horizontal_Light.png using Guid(683ac3a694654de4182291a8e8ebce7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0a7a64fe4fa5ab5f313f83c4ed668c45') in 0.046498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Export_disabled.png
+  artifactKey: Guid(bde7f84d18e493c4aba66da5d142a41c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Export_disabled.png using Guid(bde7f84d18e493c4aba66da5d142a41c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '16dc4fcace98b7be9cb12e233ac4559b') in 0.032837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Normal_Orange.png
+  artifactKey: Guid(8594bd334a9802841af8478a4d5bbac7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Normal_Orange.png using Guid(8594bd334a9802841af8478a4d5bbac7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '09bc9bf703e58daa3a71d2b30dd65f8f') in 0.032369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Skybox/Space_front.png
+  artifactKey: Guid(760f3e975cb462c4cb9948cd150a6343) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Skybox/Space_front.png using Guid(760f3e975cb462c4cb9948cd150a6343) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5e842718a3cf78b644c93117fefd7c89') in 0.026440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_ShiftSubtract.png
+  artifactKey: Guid(3c47249ab533044498add6726becd10c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_ShiftSubtract.png using Guid(3c47249ab533044498add6726becd10c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1b09e09654492bcd482becfcf1a0fb41') in 0.028116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Pressed_Vertical_Light.png
+  artifactKey: Guid(fed2ddcc12a73da4a922b0a8deeb41f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Pressed_Vertical_Light.png using Guid(fed2ddcc12a73da4a922b0a8deeb41f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '66ee12c671b44a0286cd505b4c168771') in 0.028038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Hover_Vertical.png
+  artifactKey: Guid(2ba46d47202ae8649a58af45d53a0942) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Hover_Vertical.png using Guid(2ba46d47202ae8649a58af45d53a0942) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '06ee4a872a9c3df54bc277cc8990110a') in 0.031384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (35.7 KB). Loaded Objects now: 3186.
+Memory consumption went from 74.7 MB to 74.7 MB.
+Total: 10.608300 ms (FindLiveObjects: 0.244400 ms CreateObjectMapping: 0.162700 ms MarkObjects: 10.102900 ms  DeleteObjects: 0.096900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.705 seconds
+Refreshing native plugins compatible for Editor in 8.24 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Non-secure network connections disabled in Player Settings
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Networking.UnityWebRequest:SendWebRequest ()
+UnityEngine.WWW:.ctor (string)
+ProBuilder2.EditorCommon.pb_UpdateCheck:CheckForUpdate () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:39)
+ProBuilder2.EditorCommon.pb_UpdateCheck:.cctor () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:24)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs line 39]
+
+System.InvalidOperationException: Insecure connection not allowed
+  at (wrapper managed-to-native) UnityEngine.Networking.UnityWebRequest.BeginWebRequest(UnityEngine.Networking.UnityWebRequest)
+  at UnityEngine.Networking.UnityWebRequest.SendWebRequest () [0x00001] in <78841a8f759c47e4aff7bab3a06b1e45>:0 
+  at UnityEngine.WWW..ctor (System.String url) [0x00014] in <a966897598e44b64be2f11b39acdbb93>:0 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck.CheckForUpdate () [0x00007] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:39 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck..cctor () [0x00012] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:24 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.887 seconds
+Domain Reload Profiling: 1590ms
+	BeginReloadAssembly (194ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (431ms)
+		LoadAssemblies (266ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (239ms)
+				TypeCache.ScanAssembly (226ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (888ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (482ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (265ms)
+			ProcessInitializeOnLoadMethodAttributes (136ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 8.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2580 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (78.2 KB). Loaded Objects now: 3190.
+Memory consumption went from 116.1 MB to 116.0 MB.
+Total: 7.184500 ms (FindLiveObjects: 0.195900 ms CreateObjectMapping: 0.094200 ms MarkObjects: 6.747300 ms  DeleteObjects: 0.145700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.665 seconds
+Refreshing native plugins compatible for Editor in 9.42 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Non-secure network connections disabled in Player Settings
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Networking.UnityWebRequest:SendWebRequest ()
+UnityEngine.WWW:.ctor (string)
+ProBuilder2.EditorCommon.pb_UpdateCheck:CheckForUpdate () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:39)
+ProBuilder2.EditorCommon.pb_UpdateCheck:.cctor () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:24)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs line 39]
+
+System.InvalidOperationException: Insecure connection not allowed
+  at (wrapper managed-to-native) UnityEngine.Networking.UnityWebRequest.BeginWebRequest(UnityEngine.Networking.UnityWebRequest)
+  at UnityEngine.Networking.UnityWebRequest.SendWebRequest () [0x00001] in <78841a8f759c47e4aff7bab3a06b1e45>:0 
+  at UnityEngine.WWW..ctor (System.String url) [0x00014] in <a966897598e44b64be2f11b39acdbb93>:0 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck.CheckForUpdate () [0x00007] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:39 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck..cctor () [0x00012] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:24 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.834 seconds
+Domain Reload Profiling: 1497ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (413ms)
+		LoadAssemblies (276ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (226ms)
+			TypeCache.Refresh (222ms)
+				TypeCache.ScanAssembly (209ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (835ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (468ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (252ms)
+			ProcessInitializeOnLoadMethodAttributes (135ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 6.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2580 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (85.5 KB). Loaded Objects now: 3194.
+Memory consumption went from 117.1 MB to 117.0 MB.
+Total: 8.188900 ms (FindLiveObjects: 0.260500 ms CreateObjectMapping: 0.118100 ms MarkObjects: 7.644900 ms  DeleteObjects: 0.163800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.672 seconds
+Refreshing native plugins compatible for Editor in 7.74 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Non-secure network connections disabled in Player Settings
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Networking.UnityWebRequest:SendWebRequest ()
+UnityEngine.WWW:.ctor (string)
+ProBuilder2.EditorCommon.pb_UpdateCheck:CheckForUpdate () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:39)
+ProBuilder2.EditorCommon.pb_UpdateCheck:.cctor () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:24)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs line 39]
+
+System.InvalidOperationException: Insecure connection not allowed
+  at (wrapper managed-to-native) UnityEngine.Networking.UnityWebRequest.BeginWebRequest(UnityEngine.Networking.UnityWebRequest)
+  at UnityEngine.Networking.UnityWebRequest.SendWebRequest () [0x00001] in <78841a8f759c47e4aff7bab3a06b1e45>:0 
+  at UnityEngine.WWW..ctor (System.String url) [0x00014] in <a966897598e44b64be2f11b39acdbb93>:0 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck.CheckForUpdate () [0x00007] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:39 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck..cctor () [0x00012] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:24 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.894 seconds
+Domain Reload Profiling: 1563ms
+	BeginReloadAssembly (177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (424ms)
+		LoadAssemblies (279ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (226ms)
+			TypeCache.Refresh (221ms)
+				TypeCache.ScanAssembly (208ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (894ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (502ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (161ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 7.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2580 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (85.5 KB). Loaded Objects now: 3198.
+Memory consumption went from 118.2 MB to 118.1 MB.
+Total: 7.542800 ms (FindLiveObjects: 0.236300 ms CreateObjectMapping: 0.111400 ms MarkObjects: 6.962600 ms  DeleteObjects: 0.230500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.691 seconds
+Refreshing native plugins compatible for Editor in 5.27 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Non-secure network connections disabled in Player Settings
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Networking.UnityWebRequest:SendWebRequest ()
+UnityEngine.WWW:.ctor (string)
+ProBuilder2.EditorCommon.pb_UpdateCheck:CheckForUpdate () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:39)
+ProBuilder2.EditorCommon.pb_UpdateCheck:.cctor () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:24)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs line 39]
+
+System.InvalidOperationException: Insecure connection not allowed
+  at (wrapper managed-to-native) UnityEngine.Networking.UnityWebRequest.BeginWebRequest(UnityEngine.Networking.UnityWebRequest)
+  at UnityEngine.Networking.UnityWebRequest.SendWebRequest () [0x00001] in <78841a8f759c47e4aff7bab3a06b1e45>:0 
+  at UnityEngine.WWW..ctor (System.String url) [0x00014] in <a966897598e44b64be2f11b39acdbb93>:0 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck.CheckForUpdate () [0x00007] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:39 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck..cctor () [0x00012] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:24 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.852 seconds
+Domain Reload Profiling: 1540ms
+	BeginReloadAssembly (188ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (425ms)
+		LoadAssemblies (302ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (211ms)
+				TypeCache.ScanAssembly (199ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (852ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (484ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (262ms)
+			ProcessInitializeOnLoadMethodAttributes (136ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 6.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2580 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (71.2 KB). Loaded Objects now: 3202.
+Memory consumption went from 119.2 MB to 119.1 MB.
+Total: 6.847000 ms (FindLiveObjects: 0.231800 ms CreateObjectMapping: 0.080300 ms MarkObjects: 6.381500 ms  DeleteObjects: 0.152000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.660 seconds
+Refreshing native plugins compatible for Editor in 5.86 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Non-secure network connections disabled in Player Settings
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Networking.UnityWebRequest:SendWebRequest ()
+UnityEngine.WWW:.ctor (string)
+ProBuilder2.EditorCommon.pb_UpdateCheck:CheckForUpdate () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:39)
+ProBuilder2.EditorCommon.pb_UpdateCheck:.cctor () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:24)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs line 39]
+
+System.InvalidOperationException: Insecure connection not allowed
+  at (wrapper managed-to-native) UnityEngine.Networking.UnityWebRequest.BeginWebRequest(UnityEngine.Networking.UnityWebRequest)
+  at UnityEngine.Networking.UnityWebRequest.SendWebRequest () [0x00001] in <78841a8f759c47e4aff7bab3a06b1e45>:0 
+  at UnityEngine.WWW..ctor (System.String url) [0x00014] in <a966897598e44b64be2f11b39acdbb93>:0 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck.CheckForUpdate () [0x00007] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:39 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck..cctor () [0x00012] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:24 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.839 seconds
+Domain Reload Profiling: 1495ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (411ms)
+		LoadAssemblies (273ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (222ms)
+			TypeCache.Refresh (216ms)
+				TypeCache.ScanAssembly (201ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (839ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (476ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (255ms)
+			ProcessInitializeOnLoadMethodAttributes (139ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 7.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2580 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (78.5 KB). Loaded Objects now: 3206.
+Memory consumption went from 120.2 MB to 120.2 MB.
+Total: 7.279400 ms (FindLiveObjects: 0.318000 ms CreateObjectMapping: 0.118500 ms MarkObjects: 6.688800 ms  DeleteObjects: 0.152700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.667 seconds
+Refreshing native plugins compatible for Editor in 5.61 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Non-secure network connections disabled in Player Settings
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Networking.UnityWebRequest:SendWebRequest ()
+UnityEngine.WWW:.ctor (string)
+ProBuilder2.EditorCommon.pb_UpdateCheck:CheckForUpdate () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:39)
+ProBuilder2.EditorCommon.pb_UpdateCheck:.cctor () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:24)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs line 39]
+
+System.InvalidOperationException: Insecure connection not allowed
+  at (wrapper managed-to-native) UnityEngine.Networking.UnityWebRequest.BeginWebRequest(UnityEngine.Networking.UnityWebRequest)
+  at UnityEngine.Networking.UnityWebRequest.SendWebRequest () [0x00001] in <78841a8f759c47e4aff7bab3a06b1e45>:0 
+  at UnityEngine.WWW..ctor (System.String url) [0x00014] in <a966897598e44b64be2f11b39acdbb93>:0 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck.CheckForUpdate () [0x00007] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:39 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck..cctor () [0x00012] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:24 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.834 seconds
+Domain Reload Profiling: 1499ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (420ms)
+		LoadAssemblies (275ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (226ms)
+			TypeCache.Refresh (222ms)
+				TypeCache.ScanAssembly (206ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (834ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (454ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (241ms)
+			ProcessInitializeOnLoadMethodAttributes (130ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 5.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2580 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (85.5 KB). Loaded Objects now: 3210.
+Memory consumption went from 121.3 MB to 121.2 MB.
+Total: 7.815100 ms (FindLiveObjects: 0.251700 ms CreateObjectMapping: 0.080000 ms MarkObjects: 7.259800 ms  DeleteObjects: 0.221700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.669 seconds
+Refreshing native plugins compatible for Editor in 6.38 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Non-secure network connections disabled in Player Settings
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Networking.UnityWebRequest:SendWebRequest ()
+UnityEngine.WWW:.ctor (string)
+ProBuilder2.EditorCommon.pb_UpdateCheck:CheckForUpdate () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:39)
+ProBuilder2.EditorCommon.pb_UpdateCheck:.cctor () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:24)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs line 39]
+
+System.InvalidOperationException: Insecure connection not allowed
+  at (wrapper managed-to-native) UnityEngine.Networking.UnityWebRequest.BeginWebRequest(UnityEngine.Networking.UnityWebRequest)
+  at UnityEngine.Networking.UnityWebRequest.SendWebRequest () [0x00001] in <78841a8f759c47e4aff7bab3a06b1e45>:0 
+  at UnityEngine.WWW..ctor (System.String url) [0x00014] in <a966897598e44b64be2f11b39acdbb93>:0 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck.CheckForUpdate () [0x00007] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:39 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck..cctor () [0x00012] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:24 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.879 seconds
+Domain Reload Profiling: 1546ms
+	BeginReloadAssembly (186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (411ms)
+		LoadAssemblies (269ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (224ms)
+			TypeCache.Refresh (220ms)
+				TypeCache.ScanAssembly (207ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (880ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (498ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (262ms)
+			ProcessInitializeOnLoadMethodAttributes (150ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 9.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2580 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (71.2 KB). Loaded Objects now: 3214.
+Memory consumption went from 122.3 MB to 122.2 MB.
+Total: 9.009100 ms (FindLiveObjects: 0.219200 ms CreateObjectMapping: 0.073700 ms MarkObjects: 8.542700 ms  DeleteObjects: 0.171900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.657 seconds
+Refreshing native plugins compatible for Editor in 8.10 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Non-secure network connections disabled in Player Settings
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Networking.UnityWebRequest:SendWebRequest ()
+UnityEngine.WWW:.ctor (string)
+ProBuilder2.EditorCommon.pb_UpdateCheck:CheckForUpdate () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:39)
+ProBuilder2.EditorCommon.pb_UpdateCheck:.cctor () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:24)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs line 39]
+
+System.InvalidOperationException: Insecure connection not allowed
+  at (wrapper managed-to-native) UnityEngine.Networking.UnityWebRequest.BeginWebRequest(UnityEngine.Networking.UnityWebRequest)
+  at UnityEngine.Networking.UnityWebRequest.SendWebRequest () [0x00001] in <78841a8f759c47e4aff7bab3a06b1e45>:0 
+  at UnityEngine.WWW..ctor (System.String url) [0x00014] in <a966897598e44b64be2f11b39acdbb93>:0 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck.CheckForUpdate () [0x00007] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:39 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck..cctor () [0x00012] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:24 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.851 seconds
+Domain Reload Profiling: 1506ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (410ms)
+		LoadAssemblies (267ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (223ms)
+			TypeCache.Refresh (218ms)
+				TypeCache.ScanAssembly (202ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (852ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (475ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (258ms)
+			ProcessInitializeOnLoadMethodAttributes (134ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 5.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2580 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (85.5 KB). Loaded Objects now: 3218.
+Memory consumption went from 123.4 MB to 123.3 MB.
+Total: 7.057100 ms (FindLiveObjects: 0.278000 ms CreateObjectMapping: 0.143200 ms MarkObjects: 6.476400 ms  DeleteObjects: 0.157600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.671 seconds
+Refreshing native plugins compatible for Editor in 6.08 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Non-secure network connections disabled in Player Settings
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Networking.UnityWebRequest:SendWebRequest ()
+UnityEngine.WWW:.ctor (string)
+ProBuilder2.EditorCommon.pb_UpdateCheck:CheckForUpdate () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:39)
+ProBuilder2.EditorCommon.pb_UpdateCheck:.cctor () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:24)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs line 39]
+
+System.InvalidOperationException: Insecure connection not allowed
+  at (wrapper managed-to-native) UnityEngine.Networking.UnityWebRequest.BeginWebRequest(UnityEngine.Networking.UnityWebRequest)
+  at UnityEngine.Networking.UnityWebRequest.SendWebRequest () [0x00001] in <78841a8f759c47e4aff7bab3a06b1e45>:0 
+  at UnityEngine.WWW..ctor (System.String url) [0x00014] in <a966897598e44b64be2f11b39acdbb93>:0 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck.CheckForUpdate () [0x00007] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:39 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck..cctor () [0x00012] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:24 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.860 seconds
+Domain Reload Profiling: 1526ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (418ms)
+		LoadAssemblies (280ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (223ms)
+			TypeCache.Refresh (219ms)
+				TypeCache.ScanAssembly (208ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (860ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (476ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (257ms)
+			ProcessInitializeOnLoadMethodAttributes (137ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 7.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2580 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (78.3 KB). Loaded Objects now: 3222.
+Memory consumption went from 124.4 MB to 124.3 MB.
+Total: 6.640500 ms (FindLiveObjects: 0.219000 ms CreateObjectMapping: 0.071500 ms MarkObjects: 6.194200 ms  DeleteObjects: 0.154200 ms)
+
+ArgumentException: An item with the same key has already been added. Key: pbDefaultEditLevel
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <e2c207a994de4afeaaf8b15d9cc11680>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <e2c207a994de4afeaaf8b15d9cc11680>:0 
+  at ProBuilder2.Common.pb_PreferenceDictionary.OnAfterDeserialize () [0x00064] in <18af90a43fca47ddb60c356c71cec131>:0 
+
+Prepare: number of updated asset objects reloaded= 1
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.739 seconds
+Refreshing native plugins compatible for Editor in 5.31 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Non-secure network connections disabled in Player Settings
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Networking.UnityWebRequest:SendWebRequest ()
+UnityEngine.WWW:.ctor (string)
+ProBuilder2.EditorCommon.pb_UpdateCheck:CheckForUpdate () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:39)
+ProBuilder2.EditorCommon.pb_UpdateCheck:.cctor () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:24)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs line 39]
+
+System.InvalidOperationException: Insecure connection not allowed
+  at (wrapper managed-to-native) UnityEngine.Networking.UnityWebRequest.BeginWebRequest(UnityEngine.Networking.UnityWebRequest)
+  at UnityEngine.Networking.UnityWebRequest.SendWebRequest () [0x00001] in <78841a8f759c47e4aff7bab3a06b1e45>:0 
+  at UnityEngine.WWW..ctor (System.String url) [0x00014] in <a966897598e44b64be2f11b39acdbb93>:0 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck.CheckForUpdate () [0x00007] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:39 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck..cctor () [0x00012] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:24 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.895 seconds
+Domain Reload Profiling: 1631ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (487ms)
+		LoadAssemblies (344ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (219ms)
+			TypeCache.Refresh (216ms)
+				TypeCache.ScanAssembly (201ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (895ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (488ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (254ms)
+			ProcessInitializeOnLoadMethodAttributes (144ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 8.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2580 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (85.4 KB). Loaded Objects now: 3226.
+Memory consumption went from 125.4 MB to 125.4 MB.
+Total: 8.110500 ms (FindLiveObjects: 0.262300 ms CreateObjectMapping: 0.064000 ms MarkObjects: 7.585700 ms  DeleteObjects: 0.197000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.688 seconds
+Refreshing native plugins compatible for Editor in 7.77 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Non-secure network connections disabled in Player Settings
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Networking.UnityWebRequest:SendWebRequest ()
+UnityEngine.WWW:.ctor (string)
+ProBuilder2.EditorCommon.pb_UpdateCheck:CheckForUpdate () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:39)
+ProBuilder2.EditorCommon.pb_UpdateCheck:.cctor () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:24)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs line 39]
+
+System.InvalidOperationException: Insecure connection not allowed
+  at (wrapper managed-to-native) UnityEngine.Networking.UnityWebRequest.BeginWebRequest(UnityEngine.Networking.UnityWebRequest)
+  at UnityEngine.Networking.UnityWebRequest.SendWebRequest () [0x00001] in <78841a8f759c47e4aff7bab3a06b1e45>:0 
+  at UnityEngine.WWW..ctor (System.String url) [0x00014] in <a966897598e44b64be2f11b39acdbb93>:0 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck.CheckForUpdate () [0x00007] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:39 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck..cctor () [0x00012] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:24 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.872 seconds
+Domain Reload Profiling: 1556ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (429ms)
+		LoadAssemblies (276ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (234ms)
+				TypeCache.ScanAssembly (221ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (872ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (490ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (270ms)
+			ProcessInitializeOnLoadMethodAttributes (136ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 5.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2580 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (85.4 KB). Loaded Objects now: 3230.
+Memory consumption went from 126.5 MB to 126.4 MB.
+Total: 7.146600 ms (FindLiveObjects: 0.233800 ms CreateObjectMapping: 0.075100 ms MarkObjects: 6.674700 ms  DeleteObjects: 0.161600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.696 seconds
+Refreshing native plugins compatible for Editor in 8.29 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Non-secure network connections disabled in Player Settings
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Networking.UnityWebRequest:SendWebRequest ()
+UnityEngine.WWW:.ctor (string)
+ProBuilder2.EditorCommon.pb_UpdateCheck:CheckForUpdate () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:39)
+ProBuilder2.EditorCommon.pb_UpdateCheck:.cctor () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:24)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs line 39]
+
+System.InvalidOperationException: Insecure connection not allowed
+  at (wrapper managed-to-native) UnityEngine.Networking.UnityWebRequest.BeginWebRequest(UnityEngine.Networking.UnityWebRequest)
+  at UnityEngine.Networking.UnityWebRequest.SendWebRequest () [0x00001] in <78841a8f759c47e4aff7bab3a06b1e45>:0 
+  at UnityEngine.WWW..ctor (System.String url) [0x00014] in <a966897598e44b64be2f11b39acdbb93>:0 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck.CheckForUpdate () [0x00007] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:39 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck..cctor () [0x00012] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:24 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.876 seconds
+Domain Reload Profiling: 1570ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (417ms)
+		LoadAssemblies (279ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (224ms)
+			TypeCache.Refresh (221ms)
+				TypeCache.ScanAssembly (206ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (877ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (488ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (140ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 6.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2580 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (78.4 KB). Loaded Objects now: 3234.
+Memory consumption went from 127.5 MB to 127.4 MB.
+Total: 7.775900 ms (FindLiveObjects: 0.184700 ms CreateObjectMapping: 0.074700 ms MarkObjects: 7.350600 ms  DeleteObjects: 0.164300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.659 seconds
+Refreshing native plugins compatible for Editor in 7.03 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Non-secure network connections disabled in Player Settings
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Networking.UnityWebRequest:SendWebRequest ()
+UnityEngine.WWW:.ctor (string)
+ProBuilder2.EditorCommon.pb_UpdateCheck:CheckForUpdate () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:39)
+ProBuilder2.EditorCommon.pb_UpdateCheck:.cctor () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:24)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs line 39]
+
+System.InvalidOperationException: Insecure connection not allowed
+  at (wrapper managed-to-native) UnityEngine.Networking.UnityWebRequest.BeginWebRequest(UnityEngine.Networking.UnityWebRequest)
+  at UnityEngine.Networking.UnityWebRequest.SendWebRequest () [0x00001] in <78841a8f759c47e4aff7bab3a06b1e45>:0 
+  at UnityEngine.WWW..ctor (System.String url) [0x00014] in <a966897598e44b64be2f11b39acdbb93>:0 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck.CheckForUpdate () [0x00007] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:39 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck..cctor () [0x00012] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:24 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.875 seconds
+Domain Reload Profiling: 1531ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (415ms)
+		LoadAssemblies (268ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (224ms)
+			TypeCache.Refresh (220ms)
+				TypeCache.ScanAssembly (207ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (875ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (461ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (247ms)
+			ProcessInitializeOnLoadMethodAttributes (132ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 6.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2580 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (78.4 KB). Loaded Objects now: 3238.
+Memory consumption went from 128.6 MB to 128.5 MB.
+Total: 9.196000 ms (FindLiveObjects: 0.222600 ms CreateObjectMapping: 0.151300 ms MarkObjects: 8.653400 ms  DeleteObjects: 0.166800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.777 seconds
+Refreshing native plugins compatible for Editor in 6.64 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Non-secure network connections disabled in Player Settings
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Networking.UnityWebRequest:SendWebRequest ()
+UnityEngine.WWW:.ctor (string)
+ProBuilder2.EditorCommon.pb_UpdateCheck:CheckForUpdate () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:39)
+ProBuilder2.EditorCommon.pb_UpdateCheck:.cctor () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:24)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs line 39]
+
+System.InvalidOperationException: Insecure connection not allowed
+  at (wrapper managed-to-native) UnityEngine.Networking.UnityWebRequest.BeginWebRequest(UnityEngine.Networking.UnityWebRequest)
+  at UnityEngine.Networking.UnityWebRequest.SendWebRequest () [0x00001] in <78841a8f759c47e4aff7bab3a06b1e45>:0 
+  at UnityEngine.WWW..ctor (System.String url) [0x00014] in <a966897598e44b64be2f11b39acdbb93>:0 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck.CheckForUpdate () [0x00007] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:39 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck..cctor () [0x00012] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:24 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.849 seconds
+Domain Reload Profiling: 1622ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (459ms)
+		LoadAssemblies (334ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (232ms)
+			TypeCache.Refresh (224ms)
+				TypeCache.ScanAssembly (202ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (849ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (464ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (253ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 5.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2580 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (85.5 KB). Loaded Objects now: 3242.
+Memory consumption went from 129.6 MB to 129.5 MB.
+Total: 6.629100 ms (FindLiveObjects: 0.210000 ms CreateObjectMapping: 0.072900 ms MarkObjects: 6.196000 ms  DeleteObjects: 0.148900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.667 seconds
+Refreshing native plugins compatible for Editor in 5.55 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Non-secure network connections disabled in Player Settings
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Networking.UnityWebRequest:SendWebRequest ()
+UnityEngine.WWW:.ctor (string)
+ProBuilder2.EditorCommon.pb_UpdateCheck:CheckForUpdate () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:39)
+ProBuilder2.EditorCommon.pb_UpdateCheck:.cctor () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:24)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs line 39]
+
+System.InvalidOperationException: Insecure connection not allowed
+  at (wrapper managed-to-native) UnityEngine.Networking.UnityWebRequest.BeginWebRequest(UnityEngine.Networking.UnityWebRequest)
+  at UnityEngine.Networking.UnityWebRequest.SendWebRequest () [0x00001] in <78841a8f759c47e4aff7bab3a06b1e45>:0 
+  at UnityEngine.WWW..ctor (System.String url) [0x00014] in <a966897598e44b64be2f11b39acdbb93>:0 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck.CheckForUpdate () [0x00007] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:39 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck..cctor () [0x00012] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:24 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.837 seconds
+Domain Reload Profiling: 1501ms
+	BeginReloadAssembly (173ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (421ms)
+		LoadAssemblies (276ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (226ms)
+			TypeCache.Refresh (223ms)
+				TypeCache.ScanAssembly (207ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (837ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (466ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (248ms)
+			ProcessInitializeOnLoadMethodAttributes (131ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 9.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2580 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (85.6 KB). Loaded Objects now: 3246.
+Memory consumption went from 130.6 MB to 130.6 MB.
+Total: 7.647300 ms (FindLiveObjects: 0.257200 ms CreateObjectMapping: 0.089100 ms MarkObjects: 7.127800 ms  DeleteObjects: 0.171800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.752 seconds
+Refreshing native plugins compatible for Editor in 7.08 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Non-secure network connections disabled in Player Settings
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Networking.UnityWebRequest:SendWebRequest ()
+UnityEngine.WWW:.ctor (string)
+ProBuilder2.EditorCommon.pb_UpdateCheck:CheckForUpdate () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:39)
+ProBuilder2.EditorCommon.pb_UpdateCheck:.cctor () (at Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs:24)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs line 39]
+
+System.InvalidOperationException: Insecure connection not allowed
+  at (wrapper managed-to-native) UnityEngine.Networking.UnityWebRequest.BeginWebRequest(UnityEngine.Networking.UnityWebRequest)
+  at UnityEngine.Networking.UnityWebRequest.SendWebRequest () [0x00001] in <78841a8f759c47e4aff7bab3a06b1e45>:0 
+  at UnityEngine.WWW..ctor (System.String url) [0x00014] in <a966897598e44b64be2f11b39acdbb93>:0 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck.CheckForUpdate () [0x00007] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:39 
+  at ProBuilder2.EditorCommon.pb_UpdateCheck..cctor () [0x00012] in C:\Code\CS50g\project10\portal\Assets\ProCore\ProBuilder\About\Editor\pb_UpdateCheck.cs:24 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.900 seconds
+Domain Reload Profiling: 1650ms
+	BeginReloadAssembly (196ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (469ms)
+		LoadAssemblies (317ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (257ms)
+			TypeCache.Refresh (251ms)
+				TypeCache.ScanAssembly (235ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (900ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (507ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (272ms)
+			ProcessInitializeOnLoadMethodAttributes (141ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 9.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2580 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (78.3 KB). Loaded Objects now: 3250.
+Memory consumption went from 131.7 MB to 131.6 MB.
+Total: 7.154700 ms (FindLiveObjects: 0.222500 ms CreateObjectMapping: 0.088300 ms MarkObjects: 6.648300 ms  DeleteObjects: 0.194000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
